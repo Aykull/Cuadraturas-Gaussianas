@@ -8,7 +8,6 @@ function [resultado]=cuad_gauss_2(f,a,b,n)
   sol=double(solve(pol==0,x));
   #Se calcula la derivada del polinomio de Legendre
   der = diff(pol,x);
-  #Comando para evaluar la función
   #Índice para encontrar la cantidad de w_i necesarias
   i=1;
   #Arreglo para guardar los valores de w_i
